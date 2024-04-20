@@ -1,0 +1,911 @@
+<html lang="en">
+    <!-- Required meta tags -->
+    <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Custom CSS -->
+    <link href="index.css" rel="stylesheet">
+    <!--responsive css -->
+    <link href="responsive.css" rel="stylesheet">
+    <title>XPERTAFF</title>
+  </head>
+  <body>
+    
+    <!-- Header Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark header-nav">
+      <div class="container-fluid nav-text header-div">
+          <ul class="navbar-nav">
+              <li class="nav-item mx-1">
+                  <a class="nav-link active" aria-current="page" href="/register.html">Add Network/Program</a>
+              </li>
+          </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-head justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                  <li class="nav-item mx-2">
+                      <a class="nav-link h-nav" aria-current="page" href="/index.html">Networks</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                      <a class="nav-link h-nav" href="/offers.html">Offers</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                      <a class="nav-link h-nav" href="/resources.html">Resources</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                      <a class="nav-link h-nav" href="/reviews.html">Reviews</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                      <a class="nav-link h-nav" href="#">News</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                      <a class="nav-link h-nav active" href="/blog.html">Blog</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  
+  <!-- Search Navigation -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid search-div">
+        <a class="navbar-brand" href="#"><img src="images/Logo.png" class="logo-img img-fluid"></a>
+        <form class="d-flex search-form">
+            <div class="input-group">
+                <span class="input-group-text search-field" id="basic-addon1"><i
+                        class="fa fa-search text-light mx-1" aria-hidden="true"></i></span>
+                <input type="text" class="form-control input-text" placeholder="Search" aria-label="Search"
+                    aria-describedby="basic-addon1" fdprocessedid="frpdeh">
+            </div>
+        </form>
+        <!-- <button type="button" class="btn btn-login text-light fw-bold" fdprocessedid="7ngc7">Log In</button> -->
+    </div>
+</nav>
+  
+  <div class=" top-div bg-light">
+  
+  <!-- Image Cards -->
+  <div class="row row-cols-1 row-cols-md-2 g-3 mx-1 pt-2">
+    <div class="col">
+        <div class="card">
+            <div class="mx-4 mt-1">
+                <h5 class="net-mnth">Network of the Month</h5>
+            </div>
+            <a href="#"><img src="images/1win2.jpg" class="card-img-top img-fluid img1 px-4" alt="..."></a>
+
+            <div class="mt-1 mx-4">
+                <a href="#" class="text-dark">
+                    <h5 class="net-title">Network</h5>
+                </a>
+                <div class="rating">
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                </div>
+                <p class="net-desc mt-1">Premium Network Premium Network Premium Network Premium Network Premium
+                    Network Premium Network</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#"><img src="images/1win.jpg" class="d-block w-100 rounded" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img src="images/adsempire.jpg" class="d-block w-100 rounded" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img src="images/lopollos.png" class="d-block w-100 rounded" alt="..."></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  
+  <!-- Nav Tabs -->
+ 
+  <!-- Filter -->
+  <div class="filter-container border mx-3 mt-4" style="background-color: #f3f3f3;">
+    <div class="border rounded text-center text-light" style="background-color: #533582;">
+        <h6 class="mt-1">Featured Blog</h6>
+    </div>
+  
+  <!-- Banner -->
+  <div class="container mt-4 px-4 banner-div">
+    <a href="#"><img src="images/banner.png" class="w-100"></a>
+</div>
+  
+  <!-- Filter Table -->
+    <div class="filter-container mx-1">
+        <div class="container mt-3 d-flex justify-content-between gap-3 p-3 mobile-featured-blog">
+          <div class="border bg-light rounded" >
+            <div class="mx-3 mt-3" >
+                <div class="d-flex justify-content-between">
+                  <div class="blog-img">
+                    <img src="images/olavivo.jpg" class="img-fluid" alt="...">
+                  </div>
+                    <div class="blog-text">
+                      <p class="blog-title">AffMeet CPA Affiliate Network: </p>
+                      <p class="blog-title2">The Best Way to Monetize Your Online Presence</p>
+                      <p class="blog-tym"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                      <div class="blog-desc">
+                        <p>Hello, fellow colleagues! Today I will share my knowledge and observations about WHAT you need to do to start making money in the adult games niche under the PPS model and I’ll also tell you HOW you can do it. A quick intro My name is Alexander. I finished my studies 7 years ago and … </p>
+                    </div>
+                <div class="d-flex justify-content-end read-more" >
+                <button class="btn read-more-btn btn-sm" type="button">Read More</button>
+                </div>
+              </div>
+
+        </div>
+        
+        <div class="border bg-light rounded fblog2" >
+          <div class="mx-3 mt-3" >
+              <div class="d-flex justify-content-between">
+                <div class="blog-img">
+                  <img src="images/olavivo.jpg" class="img-fluid" alt="...">
+                </div>
+                  <div class="blog-text">
+                    <p class="blog-title">AffMeet CPA Affiliate Network: </p>
+                    <p class="blog-title2">The Best Way to Monetize Your Online Presence</p>
+                    <p class="blog-tym"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+              </div>
+                    <div class="blog-desc">
+                      <p>Hello, fellow colleagues! Today I will share my knowledge and observations about WHAT you need to do to start making money in the adult games niche under the PPS model and I’ll also tell you HOW you can do it. A quick intro My name is Alexander. I finished my studies 7 years ago and … </p>
+                  </div>
+              <div class="d-flex justify-content-end read-more" >
+              <button class="btn read-more-btn btn-sm" type="button">Read More</button>
+              </div>
+            </div>
+
+      </div>
+    </div>
+
+</div>
+</div>
+
+  
+  <!-- Banner -->
+  <div class="container bann-tab">
+    <div class=" mt-4 mx-1 banner-div2">
+      <a href="#"><img src="images/banner.png" class="w-100" ></a>
+    </div>
+    </div>
+
+  <!-- Nav Tabs -->
+    <!-- <div class="nav-tabs border mx-3">
+      <ul class="nav nav-pills nav-grid">
+        <li class="nav-item text-center">
+          <a href="#" class="nav-link blog-tab-btn border text-dark fw-bold bg-light active">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span class="f-icon2">Latest</span>
+          </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#" class="nav-link blog-tab-btn border text-dark fw-bold bg-light ">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+            <span class="f-icon2">Affiliate Network</span>
+          </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#" class="nav-link blog-tab-btn border text-dark fw-bold bg-light">
+            <i class="fa-sharp fa-regular fa-folder-open"></i>
+            <span class="f-icon2">Affiliates</span>
+          </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#" class="nav-link blog-tab-btn border text-dark fw-bold bg-light">
+            <i class="fa-regular fa-file"></i>
+            <span class="f-icon2">Other</span>
+          </a>
+        </li>
+      </ul>
+    </div> -->
+  
+  <!-- Featured Network -->
+  <div class="container feat-tab mt-4">
+  <div class="mx-3 ft-div">
+  <div class="row">
+    <div class="col-md-7 col-sm-12 border" style="background-color: #f3f3f3;">
+        <div>
+            <p class="mt-2" style="margin-bottom: -10px;">Exclusive API-PIN From Vertads CPA Affiliate Network</p>
+        </div>
+        <hr>
+        <div>
+            <a href="#"><img class="img-fluid blog-banner" src="images/olavivo.jpg"></a>
+        </div>
+        <div class="mt-3">
+            <p class="text-secondary" style="font-size: 14px;">VertAds, subsidiary of Nova Media, a digital marketing company which manages all CPA campaigns from our in-house and valued partners on Meta, Google and other social sources. We provide high quality subscribers for mobile merchants worldwide with more than 30 Million conversions since established in 2019. Creativity, proficiency and credibility define VertAds and make it stand out in mobile tech solutions.
+
+                And now, we are excited to announce that VertAds is offering PIN API for several geos, in addition to our regular services.
+                
+                So, what exactly is PIN API?
+                In essence, it is a new way of hosting PIN Submit campaigns that we have developed internally at NOVA Media. Unlike regular PIN Submit campaigns, all requests are sent through an API. This feature is particularly useful for publishers who have their own apps or websites and integrate offers through API.
+                
+                Once the user enters their MSISDN (phone number) in the app or website, they can enter the PIN in the app/site manually or, more commonly, it will be pre-filled automatically. Once the app or site detects the PIN, it sends it to the TC PIN API, where it fetches the stored data using the tracker and checks if it matches. This process ensures that the user is subscribed to the campaign and can access the content or service that they have signed up for.
+                
+                The beauty of this feature is that it streamlines the process, making it more efficient and user-friendly. Rather than having to navigate through multiple steps and pages, users can complete the process with a few clicks. For publishers, this means a higher conversion rate, as users are more likely to complete the process if it is easy and straightforward.
+                
+                We believe that PIN API will be a game-changer for our clients who are looking to promote their campaigns more effectively. This new feature will save time and money, while also improving the user experience. With the latest update to the feature, the process has become even more seamless, allowing users to subscribe to campaigns quickly and easily.
+                
+                In conclusion, PIN API is a powerful new tool that we have developed to help our clients promote their campaigns more effectively. With its streamlined process, user-friendly interface, and the latest update to the feature, we are confident that this tool will be a game-changer for publishers looking to increase their conversion rates. We look forward to seeing how our clients will use this feature to take their campaigns to the next level</p>
+        </div>
+    </div>   
+  
+  <!-- side component -->
+  <div class="col-md-5 col-sm-12">
+    <div class="border side-compnt">
+      <div class="mx-3 mt-2 side-tbl">
+          <div class="top-10-net">
+            <h6 class="fw-bold">Top 10 Networks</h6>
+          </div>
+          <div class="d-flex justify-content-between">
+              <div class="d-flex mobile-side mt-2">
+                <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+                <div class="mx-3 mobile-side-compnt">
+                  <a href="#" class="  text-dark"><p class="net">Network</p></a>
+                  <div class="top-icon">
+                    <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+                    <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+                    <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+                    <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+                  </div> 
+                  <div class="d-flex m-badge" style="height: 18%;">
+                  <span class="badge top-join-badge">4.56</span>
+                  <div class="top-rating d-flex">
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                  </div>
+                  <p class="top-text mx-1">53 Reviews</p>
+                  </div>
+                </div>
+                <div class="mt-3 top-arrow">
+                  <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+          </div>
+    
+          <!---->
+          <div class="d-flex justify-content-between">
+            <div class="d-flex mobile-side mt-2">
+              <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+              <div class="mx-3 mobile-side-compnt">
+                <a href="#" class="  text-dark"><p class="net">Network</p></a>
+                <div class="top-icon">
+                  <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+                  <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+                  <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+                  <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+                </div> 
+                <div class="d-flex m-badge" style="height: 18%;">
+                <span class="badge top-join-badge">4.56</span>
+                <div class="top-rating d-flex">
+                  <i class="fas fa-3x fa-star"></i>
+                  <i class="fas fa-3x fa-star"></i>
+                  <i class="fas fa-3x fa-star"></i>
+                  <i class="fas fa-3x fa-star"></i>
+                  <i class="fas fa-3x fa-star"></i>
+                </div>
+                <p class="top-text mx-1">53 Reviews</p>
+                </div>
+              </div>
+              <div class="mt-3 top-arrow">
+                <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+              </div>
+          </div>
+        </div>
+    
+        <!---->
+        <div class="d-flex justify-content-between">
+          <div class="d-flex mobile-side mt-2">
+            <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+            <div class="mx-3 mobile-side-compnt">
+              <a href="#" class="  text-dark"><p class="net">Network</p></a>
+              <div class="top-icon">
+                <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+                <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+                <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+                <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+              </div> 
+              <div class="d-flex m-badge" style="height: 18%;">
+              <span class="badge top-join-badge">4.56</span>
+              <div class="top-rating d-flex">
+                <i class="fas fa-3x fa-star"></i>
+                <i class="fas fa-3x fa-star"></i>
+                <i class="fas fa-3x fa-star"></i>
+                <i class="fas fa-3x fa-star"></i>
+                <i class="fas fa-3x fa-star"></i>
+              </div>
+              <p class="top-text mx-1">53 Reviews</p>
+              </div>
+            </div>
+            <div class="mt-3 top-arrow">
+              <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+            </div>
+        </div>
+      </div>
+    
+      <!---->
+      <div class="d-flex justify-content-between">
+        <div class="d-flex mobile-side mt-2">
+          <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+          <div class="mx-3 mobile-side-compnt">
+            <a href="#" class="  text-dark"><p class="net">Network</p></a>
+            <div class="top-icon">
+              <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+              <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+              <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+              <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+            </div> 
+            <div class="d-flex m-badge" style="height: 18%;">
+            <span class="badge top-join-badge">4.56</span>
+            <div class="top-rating d-flex">
+              <i class="fas fa-3x fa-star"></i>
+              <i class="fas fa-3x fa-star"></i>
+              <i class="fas fa-3x fa-star"></i>
+              <i class="fas fa-3x fa-star"></i>
+              <i class="fas fa-3x fa-star"></i>
+            </div>
+            <p class="top-text mx-1">53 Reviews</p>
+            </div>
+          </div>
+          <div class="mt-3 top-arrow">
+            <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+          </div>
+      </div>
+    </div>
+    
+    <!---->
+    <div class="d-flex justify-content-between">
+      <div class="d-flex mobile-side mt-2">
+        <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+        <div class="mx-3 mobile-side-compnt">
+          <a href="#" class="  text-dark"><p class="net">Network</p></a>
+          <div class="top-icon">
+            <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+            <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+            <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+            <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+          </div> 
+          <div class="d-flex m-badge" style="height: 18%;">
+          <span class="badge top-join-badge">4.56</span>
+          <div class="top-rating d-flex">
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+          </div>
+          <p class="top-text mx-1">53 Reviews</p>
+          </div>
+        </div>
+        <div class="mt-3 top-arrow">
+          <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+        </div>
+    </div>
+    </div>
+    
+    <!---->
+    <div class="d-flex justify-content-between">
+      <div class="d-flex mobile-side mt-2">
+        <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+        <div class="mx-3 mobile-side-compnt">
+          <a href="#" class="  text-dark"><p class="net">Network</p></a>
+          <div class="top-icon">
+            <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+            <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+            <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+            <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+          </div> 
+          <div class="d-flex m-badge" style="height: 18%;">
+          <span class="badge top-join-badge">4.56</span>
+          <div class="top-rating d-flex">
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+          </div>
+          <p class="top-text mx-1">53 Reviews</p>
+          </div>
+        </div>
+        <div class="mt-3 top-arrow">
+          <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+        </div>
+    </div>
+    </div>
+    
+    <!---->
+    <div class="d-flex justify-content-between">
+      <div class="d-flex mobile-side mt-2">
+        <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+        <div class="mx-3 mobile-side-compnt">
+          <a href="#" class="  text-dark"><p class="net">Network</p></a>
+          <div class="top-icon">
+            <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+            <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+            <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+            <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+          </div> 
+          <div class="d-flex m-badge" style="height: 18%;">
+          <span class="badge top-join-badge">4.56</span>
+          <div class="top-rating d-flex">
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+          </div>
+          <p class="top-text mx-1">53 Reviews</p>
+          </div>
+        </div>
+        <div class="mt-3 top-arrow">
+          <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+        </div>
+    </div>
+    </div>
+    
+    <!---->
+    <div class="d-flex justify-content-between">
+      <div class="d-flex mobile-side mt-2">
+        <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+        <div class="mx-3 mobile-side-compnt">
+          <a href="#" class="  text-dark"><p class="net">Network</p></a>
+          <div class="top-icon">
+            <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+            <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+            <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+            <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+          </div> 
+          <div class="d-flex m-badge" style="height: 18%;">
+          <span class="badge top-join-badge">4.56</span>
+          <div class="top-rating d-flex">
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+          </div>
+          <p class="top-text mx-1">53 Reviews</p>
+          </div>
+        </div>
+        <div class="mt-3 top-arrow">
+          <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+        </div>
+    </div>
+    </div>
+    
+    <!---->
+    <div class="d-flex justify-content-between">
+      <div class="d-flex mobile-side mt-2">
+        <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+        <div class="mx-3 mobile-side-compnt">
+          <a href="#" class="  text-dark"><p class="net">Network</p></a>
+          <div class="top-icon">
+            <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+            <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+            <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+            <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+          </div> 
+          <div class="d-flex m-badge" style="height: 18%;">
+          <span class="badge top-join-badge">4.56</span>
+          <div class="top-rating d-flex">
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+          </div>
+          <p class="top-text mx-1">53 Reviews</p>
+          </div>
+        </div>
+        <div class="mt-3 top-arrow">
+          <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+        </div>
+    </div>
+    </div>
+    
+    <!---->
+    <div class="d-flex justify-content-between">
+      <div class="d-flex mobile-side mt-2">
+        <img src="images/network img.jpg" class="img-fluid top-net-img rounded-circle ">
+        <div class="mx-3 mobile-side-compnt">
+          <a href="#" class="  text-dark"><p class="net">Network</p></a>
+          <div class="top-icon">
+            <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+            <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+            <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+            <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+          </div> 
+          <div class="d-flex m-badge" style="height: 18%;">
+          <span class="badge top-join-badge">4.56</span>
+          <div class="top-rating d-flex">
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+          </div>
+          <p class="top-text mx-1">53 Reviews</p>
+          </div>
+        </div>
+        <div class="mt-3 top-arrow">
+          <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+        </div>
+    </div>
+    </div>
+           
+      </div>
+      </div>
+  
+    <!-- grid images -->
+    <div class="row">
+      <div class="col-12">
+        <div class="grid-img mt-4 py-2 px-2">
+          <div class="d-flex">
+              <a href="#"><img src="images/1win.jpg" class="img-fluid"></a>
+          </div>
+          <div class="d-flex gap-2 mt-2">
+              <a href="#"><img src="images/network img.jpg" class="img-fluid"></a>
+              <a href="#"><img src="images/network img.jpg" class="img-fluid"></a>
+          </div>
+          <div class="d-flex gap-2 mt-2">
+              <a href="#"><img src="images/network img.jpg" class="img-fluid"></a>
+              <a href="#"><img src="images/network img.jpg" class="img-fluid"></a>
+          </div>
+          <div class="d-flex gap-2 mt-2">
+              <a href="#"><img src="images/network img.jpg" class="img-fluid"></a>
+              <a href="#"><img src="images/network img.jpg" class="img-fluid"></a>
+          </div>
+          <div class="d-flex gap-2 mt-2">
+              <a href="#"><img src="images/network img.jpg" class="img-fluid"></a>
+              <a href="#"><img src="images/network img.jpg" class="img-fluid"></a>
+          </div>
+          <div class="d-flex mt-2">
+              <a href="#"><img src="images/1win.jpg" class="img-fluid"></a>
+          </div>
+        </div>
+      </div>
+      </div>
+  
+      <div class="border mt-4 side-compnt">
+        <div class="mx-3 mt-2 side-tbl">
+           <div>
+              <h6 class="fw-bold">Featured Networks</h6>
+            </div>
+            <div class="d-flex justify-content-between">
+                <div class="d-flex mobile-side mt-2">
+                  <img src="images/olavivo.jpg" class="img-fluid top-net-img rounded-circle ">
+                  <div class="mx-3 mobile-side-compnt">
+                    <a href="#" class="  text-dark"><p class="net">Network</p></a>
+                    <div class="top-icon">
+                      <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+                      <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+                      <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+                      <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+                    </div> 
+                    <div class="d-flex m-badge" style="height: 18%;">
+                    <span class="badge top-join-badge">4.56</span>
+                    <div class="top-rating d-flex">
+                      <i class="fas fa-3x fa-star"></i>
+                      <i class="fas fa-3x fa-star"></i>
+                      <i class="fas fa-3x fa-star"></i>
+                      <i class="fas fa-3x fa-star"></i>
+                      <i class="fas fa-3x fa-star"></i>
+                    </div>
+                    <p class="top-text mx-1">53 Reviews</p>
+                    </div>
+                  </div>
+                  <div class="mt-3 top-arrow">
+                    <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+                  </div>
+              </div>
+            </div>
+  
+            <!---->
+            <div class="d-flex justify-content-between">
+              <div class="d-flex mobile-side mt-2">
+                <img src="images/olavivo.jpg" class="img-fluid top-net-img rounded-circle ">
+                <div class="mx-3 mobile-side-compnt">
+                  <a href="#" class="  text-dark"><p class="net">Network</p></a>
+                  <div class="top-icon">
+                    <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+                    <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+                    <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+                    <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+                  </div> 
+                  <div class="d-flex m-badge" style="height: 18%;">
+                  <span class="badge top-join-badge">4.56</span>
+                  <div class="top-rating d-flex">
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                    <i class="fas fa-3x fa-star"></i>
+                  </div>
+                  <p class="top-text mx-1">53 Reviews</p>
+                  </div>
+                </div>
+                <div class="mt-3 top-arrow">
+                  <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+          </div>
+  
+          <!---->
+          <div class="d-flex justify-content-between">
+            <div class="d-flex mobile-side mt-2">
+              <img src="images/olavivo.jpg" class="img-fluid top-net-img rounded-circle ">
+              <div class="mx-3 mobile-side-compnt">
+                <a href="#" class="  text-dark"><p class="net">Network</p></a>
+                <div class="top-icon">
+                  <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+                  <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+                  <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+                  <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+                </div> 
+                <div class="d-flex m-badge" style="height: 18%;">
+                <span class="badge top-join-badge">4.56</span>
+                <div class="top-rating d-flex">
+                  <i class="fas fa-3x fa-star"></i>
+                  <i class="fas fa-3x fa-star"></i>
+                  <i class="fas fa-3x fa-star"></i>
+                  <i class="fas fa-3x fa-star"></i>
+                  <i class="fas fa-3x fa-star"></i>
+                </div>
+                <p class="top-text mx-1">53 Reviews</p>
+                </div>
+              </div>
+              <div class="mt-3 top-arrow">
+                <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+              </div>
+          </div>
+        </div>
+  
+        <!---->
+        <div class="d-flex justify-content-between">
+          <div class="d-flex mobile-side mt-2">
+            <img src="images/olavivo.jpg" class="img-fluid top-net-img rounded-circle ">
+            <div class="mx-3 mobile-side-compnt">
+              <a href="#" class="  text-dark"><p class="net">Network</p></a>
+              <div class="top-icon">
+                <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+                <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+                <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+                <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+              </div> 
+              <div class="d-flex m-badge" style="height: 18%;">
+              <span class="badge top-join-badge">4.56</span>
+              <div class="top-rating d-flex">
+                <i class="fas fa-3x fa-star"></i>
+                <i class="fas fa-3x fa-star"></i>
+                <i class="fas fa-3x fa-star"></i>
+                <i class="fas fa-3x fa-star"></i>
+                <i class="fas fa-3x fa-star"></i>
+              </div>
+              <p class="top-text mx-1">53 Reviews</p>
+              </div>
+            </div>
+            <div class="mt-3 top-arrow">
+              <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+            </div>
+        </div>
+      </div>
+  
+      <!---->
+      <div class="d-flex justify-content-between">
+        <div class="d-flex mobile-side mt-2">
+          <img src="images/olavivo.jpg" class="img-fluid top-net-img rounded-circle ">
+          <div class="mx-3 mobile-side-compnt">
+            <a href="#" class="  text-dark"><p class="net">Network</p></a>
+            <div class="top-icon">
+              <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+              <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+              <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+              <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+            </div> 
+            <div class="d-flex m-badge" style="height: 18%;">
+            <span class="badge top-join-badge">4.56</span>
+            <div class="top-rating d-flex">
+              <i class="fas fa-3x fa-star"></i>
+              <i class="fas fa-3x fa-star"></i>
+              <i class="fas fa-3x fa-star"></i>
+              <i class="fas fa-3x fa-star"></i>
+              <i class="fas fa-3x fa-star"></i>
+            </div>
+            <p class="top-text mx-1">53 Reviews</p>
+            </div>
+          </div>
+          <div class="mt-3 top-arrow">
+            <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+          </div>
+      </div>
+    </div>
+  
+    <!---->
+    <div class="d-flex justify-content-between">
+      <div class="d-flex mobile-side mt-2">
+        <img src="images/olavivo.jpg" class="img-fluid top-net-img rounded-circle ">
+        <div class="mx-3 mobile-side-compnt">
+          <a href="#" class="  text-dark"><p class="net">Network</p></a>
+          <div class="top-icon">
+            <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+            <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+            <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+            <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+          </div> 
+          <div class="d-flex m-badge" style="height: 18%;">
+          <span class="badge top-join-badge">4.56</span>
+          <div class="top-rating d-flex">
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+            <i class="fas fa-3x fa-star"></i>
+          </div>
+          <p class="top-text mx-1">53 Reviews</p>
+          </div>
+        </div>
+        <div class="mt-3 top-arrow">
+          <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+        </div>
+    </div>
+  </div>
+  
+  <!---->
+  <div class="d-flex justify-content-between">
+    <div class="d-flex mobile-side mt-2">
+      <img src="images/olavivo.jpg" class="img-fluid top-net-img rounded-circle ">
+      <div class="mx-3 mobile-side-compnt">
+        <a href="#" class="  text-dark"><p class="net">Network</p></a>
+        <div class="top-icon">
+          <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+          <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+          <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+          <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+        </div> 
+        <div class="d-flex m-badge" style="height: 18%;">
+        <span class="badge top-join-badge">4.56</span>
+        <div class="top-rating d-flex">
+          <i class="fas fa-3x fa-star"></i>
+          <i class="fas fa-3x fa-star"></i>
+          <i class="fas fa-3x fa-star"></i>
+          <i class="fas fa-3x fa-star"></i>
+          <i class="fas fa-3x fa-star"></i>
+        </div>
+        <p class="top-text mx-1">53 Reviews</p>
+        </div>
+      </div>
+      <div class="mt-3 top-arrow">
+        <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+      </div>
+  </div>
+  </div>
+  
+  <!---->
+  <div class="d-flex justify-content-between">
+    <div class="d-flex mobile-side mt-2">
+      <img src="images/olavivo.jpg" class="img-fluid top-net-img rounded-circle ">
+      <div class="mx-3 mobile-side-compnt">
+        <a href="#" class="  text-dark"><p class="net">Network</p></a>
+        <div class="top-icon">
+          <img src="images/Heart.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dating">
+          <img src="images/Vector.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Game">
+          <img src="images/Plus 18 Movie.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adult">
+          <img src="images/First aid kit.png" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Health/Nutra">
+        </div> 
+        <div class="d-flex m-badge" style="height: 18%;">
+        <span class="badge top-join-badge">4.56</span>
+        <div class="top-rating d-flex">
+          <i class="fas fa-3x fa-star"></i>
+          <i class="fas fa-3x fa-star"></i>
+          <i class="fas fa-3x fa-star"></i>
+          <i class="fas fa-3x fa-star"></i>
+          <i class="fas fa-3x fa-star"></i>
+        </div>
+        <p class="top-text mx-1">53 Reviews</p>
+        </div>
+      </div>
+      <div class="mt-3 top-arrow">
+        <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+      </div>
+  </div>
+  </div>
+            
+            <!-- featured add -->
+            <div class="text-center mb-2 mt-2">
+                <a href="#"><img src="images/adxad.jpg" class="featured-add" ></a>
+            </div>
+    </div>
+</div>
+
+  </div>
+  </div>
+  </div>
+</div>
+  
+  
+  
+  
+  <!-- Banner -->
+  <div class="container bann-tab">
+    <div class=" mt-3 mx-1 banner-div2">
+    <a href=""><img src="images/banner.png" class="w-100" ></a>
+    </div>
+    </div>
+
+  <!-- Footer -->
+  <div class="container ft-tab" style="background-color: #f3f3f3;">
+    <div class=" mt-5 mx-5 footer-div">
+      <footer class="footer">
+        <div class="footer-cols">
+            <ul>
+                <li><h5>Site Links</h5></li>
+                <li><a href="#">Search Network</a></li>
+                <li><a href="#">Industry News</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <ul>
+                <li><h5>Industry Friends</h5></li>
+                <li><a href="#">AffDeal</a></li>
+                <li><a href="#">AffVoice</a></li>
+                <li><a href="/contactUs.html">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li class="p-4" style="background-color: #f3f3f3;">
+                    <h5>Connect with us</h5>
+                    <a href="#" class="text-primary">mailto:contact@expertaff.com</a>
+                    <h5 class="mt-4">Advertise on this Site</h5>
+                    <a href="#"class="text-primary" >mailto:expertaff@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+      
+    </div>
+    </div>
+    <div class="container rght-tab"  style="background-color: #2C1B47;">
+      <div class="d-flex justify-content-between text-light copyright">
+        <p class="m-1">Copyright © 2023 ExpertAff All rights reserved.</p>
+        <a href="#" class="m-1 text-light">Add Network / Program</a>
+      </div>
+    </div>
+
+  </div>
+
+    
+    
+  
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+    
+  </body>
+  </html>
